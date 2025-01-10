@@ -2,8 +2,8 @@ from colorthief import ColorThief
 import matplotlib.pyplot as plt
 import colorsys
 
-ct = ColorThief("180420.jpg")
-a = ct.get_palette(color_count=5)
+ct = ColorThief("PaletteT5_1.jpg")
+a = ct.get_palette(color_count=10)
 
 plt.imshow([[a[i] for i in range(5)]])
 plt.show()
