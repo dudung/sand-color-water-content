@@ -40,7 +40,7 @@ def match_colors(image_path, palette):
 def main():
     # Path gambar palette dan target
     palette_image_path = "PaletteT5_1.jpg"
-    target_image_path = "T1_cropped.jpg"
+    target_image_path = "Mask group.png"
 
     # Ekstrak palet warna dari gambar palet
     palette = extract_palette(palette_image_path)

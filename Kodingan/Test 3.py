@@ -41,10 +41,10 @@ def display_palette_and_luminance(palette, title, ax_palette, ax_luminance):
 fig, axs = plt.subplots(2, 2, figsize=(12, 8))
 
 # Gambar pertama
-display_palette_and_luminance(palette1, "Image 1", axs[0, 0], axs[0, 1])
+display_palette_and_luminance(palette1, "Pasir Terang", axs[0, 0], axs[0, 1])
 
 # Gambar kedua
-display_palette_and_luminance(palette2, "Image 2", axs[1, 0], axs[1, 1])
+display_palette_and_luminance(palette2, "Pasir Gelap", axs[1, 0], axs[1, 1])
 
 plt.tight_layout()
 plt.show()

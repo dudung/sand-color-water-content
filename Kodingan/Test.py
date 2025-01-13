@@ -2,7 +2,7 @@ from colorthief import ColorThief
 import matplotlib.pyplot as plt
 import colorsys
 
-ct = ColorThief("PaletteT5_1.jpg")
+ct = ColorThief("Mask group.png")
 a = ct.get_palette(color_count=10)
 
 plt.imshow([[a[i] for i in range(5)]])
